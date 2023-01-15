@@ -1,5 +1,7 @@
 # laravel9-slack
 
+A very tiny and lightweight integration with the Slack API for posting notifications or any kind of messages to your team's Slack account.
+
 ## Requirements
 
 * Laravel Framework 9+
@@ -55,10 +57,10 @@ $ php artisan vendor:publish
 - Enviando mensagens:
 
 ```php
-\Slack::send("your-message");
+\Slack::send("your message");
 ```
 
 ```php
-Slack::send("your-message" [,"display-name" [,"display-emoji"] [,"#channel" or "@username"]]);
+Slack::send("your message", 'Jackie Chan', ':facepunch:', "#z_notificacoes");
 ```
 
