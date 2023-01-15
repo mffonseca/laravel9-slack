@@ -1,6 +1,6 @@
 # laravel9-slack
 
-A very tiny and lightweight integration with the Slack API for posting notifications or any kind of messages to your team's Slack account.
+Esse pacote foi criado tendo como base o projeto [Laravel-Slack](https://github.com/gahlawat/laravel-slack/)
 
 ## Requirements
 
