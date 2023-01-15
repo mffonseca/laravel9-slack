@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'incoming-webhook' => 'https://your-incoming-webhook-url',
+    'incoming-webhook' => 'https://your-webhook-url',
 
-    'default_username' => 'laravel-slack',
+    'default_username' => 'laravel9-slack',
 
-    'default_emoji'    => ':bell:',
+    'default_emoji'    => ':facepunch:',
 ];
